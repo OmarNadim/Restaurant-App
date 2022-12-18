@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+} 
+
+header{
+    background: url(./images/burger-background.jpeg);
+    background-size: cover;
+    padding: 120px 50px;
+ 
+}
+
+h1{
+    font-family: 'Smythe';
+    font-size: 50px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+h3{
+    font-family: 'Smythe';
+    font-size: 22.4216px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.menu-modal{
+    margin: 25px 50px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    padding: 15px;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;  
+}
+
+.dish{
+    font-size: 28px;
+    line-height: 0px;
+    color: #000000;
+}
+
+.ingredients{
+    font-size: 16px;
+    color: #8B8B8B;
+    line-height: 0px;
+}
+
+.price{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.plus{
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 24px;
+    color: #3C3C3C;
+    display: flex;
+    margin: auto;
+}
+
+.add{
+    display: flex;
+    margin: auto 10px;
+    
+    width: 50px;
+    height: 50px;
+    
+    border: 1.5px solid #DEDEDE;
+    border-radius: 100%
+}
+
+.border{
+    border: 1px solid #D2D2D2;
+}
+
+/*The order modal styling*/
+
+.order-modal{
+    display: none;
+    margin: 25px 50px;
+    margin-top: 50px;
+}
+
+.border-ordered{
+    border: 2px solid #393333;
+}
+
+
+.ordered > p{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 0px;
+}
+
+.ordered{
+    display: flex;
+    justify-content: space-between
+}
+
+span{
+    font-family: 'Verdana';
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 10px;
+
+    color: #BBBBBB;
+}
+
+.order-title{
+    text-align: center;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+/*Payment Modal*/
+
+.payment-modal{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.payment-title{
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+
+
+    color: #000000;
+}
+
+/*Thank you Message*/
+
+.thank-you{
+    display: none;
+    margin: 25px 50px;
+    margin-top: 50px;
+}
+
+.thank-you-msg{
+    background: #ECFDF5;
+    border-radius: 3px;
+    padding: 40px;
+    text-align: center;
+
+    font-family: 'Smythe';
+    font-size: 32px;
+    line-height: 25px;
+
+
+    color: #065F46;
+}

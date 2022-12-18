@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Omar's Diner</h1>
+            <h3>The best burgers and pizzas in town</h3>
+        </header>
+        
+        <section class="menu-modal" id="menu"></section>
+        <section class="order-modal" id="order-modal">
+            <p class="order-title">Your order</p>
+            <div id="ordered-items-modal"></div>
+            <div class="border-ordered"></div>
+            <div class="ordered">
+                <p>Total price:</p>
+                <p id="total-price"></p>
+            </div>
+            <button class="order-btn" id="order-btn">Complete order</button>
+        </section>
+
+        <div class="payment-modal" id="payment-modal">
+            <p class="payment-title">Enter Card Details</p>
+            <form>
+                <input type="text" id="name" placeholder="Enter your name" name="name" required>
+                <input type="text" placeholder="Enter your card number" name="card" required>
+                <input type="text" placeholder="Enter CVV" name="cvv" required>
+                <button type="submit" id="pay-btn">Pay</button>
+            </form>
+        </div>
+
+        <div class="thank-you" id="thank-you">
+            <p class="thank-you-msg" id="thank-you-msg"></p>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
